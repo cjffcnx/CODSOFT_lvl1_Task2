@@ -1,488 +1,446 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trekhub | Explore Destinations</title>
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Srijan Gajurel | Professional Web Developer</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pridi:wght@200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pridi:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pridi:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
 
-
-
-    <header class="hder">
-        <div class="header-email"><span><i class="ri-mail-fill"></i></span>manoranjaninproject@gmail.com</div>
-        <button onclick="alert('Sorry for the inconvience. We are working on backend')" class="header-btn">Book
-            Now</button>
+    <header class="header">
+        <a class="logo" href="#home">Srijan <span style="color:var(--main-color)">Gajurel</span></a>
+        <i id="menu-icon" class="ri-menu-line"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" class="active">About</a>
+            <a href="#education" class="active">Education</a>
+            <a href="#skills" class="active">Skills</a>
+            <a href="#projects" class="active">Projects</a>
+            <a href="#contact" class="active">Contact</a>
+        </nav>
     </header>
-    <div class="hero">
-        <div class="container">
-            <nav>
-                <div class="nav_logo">
-                    <img src="mylogo-removebg-preview.png" alt="Trekhub Logo">
-                </div>
-                <ul class="nav_links">
-                    <li class="link"><a href="#">Home</a></li>
-                    <li class="link"><a href="#destination">Destinations</a></li>
-                    <li class="link"><a href="#about">About</a></li>
-                    <li class="link"><a href="#contact">Contact us</a></li>
-                    <li class="link"><a href="#blogs">Blogs</a></li>
-                </ul>
-                <div class="search">
-                    <input type="text" placeholder="Search">
-                    <span><i class="ri-search-line"></i></span>
-                </div>
-                <div onclick="alert('Sorry for your inconvience. We are working to give you best experience as possible and we will need some time. Thank you for understanding')"
-                    class="login">
-                    <span><i class="ri-user-3-fill"></i></span>
-                    <a style="color:#fff" href="">Log In</a>
-                </div>
-            </nav>
 
+    <section data-aos="fade-down" class="home" id="#home">
+        <div class="home-content">
+            <h1>Hi, It's <span style="color:var(--main-color)">Srijan</span></h1>
+            <h3 class="text-animation">I am a <span></span></h3>
+            <p> I am tech enthusiast. I love programming very much.</p>
 
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/srijangajurel" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61555139187709" target="_blank"><i class="ri-facebook-circle-fill"></i></a>
+                <a href="https://twitter.com/Yuvibestofbest"><i class="ri-twitter-x-fill" target="_blank"></i></a>
+                <a href="tel:+9779840031714"><i class="ri-whatsapp-fill" target="_blank"></i></a>
+                <a href="https://www.youtube.com/@Ieducateothers"><i class="ri-youtube-fill" target="_blank"></i></a>
+            </div>
 
-            <div class="destination-container">
-                <img class="bg-img-1" src="bg-dots.png" alt="">
-                <img class="bg-img-2" src="bg-arrow.png" alt="">
-                <div class="socials">
-                    <a href="https://twitter.com/Yuvibestofbest" target="_blank" rel="noopener noreferrer"> <span><i
-                                class="ri-twitter-x-line"></i></span></a>
-                    <a href="https://www.facebook.com/Dr.Drunkstein/" target="_blank" rel="noopener noreferrer">
-                        <span><i class="ri-facebook-circle-fill"></i></span></a>
-                    <a href="tel:+9779840031714" target="_blank" rel="noopener noreferrer"><span><i
-                                class="ri-whatsapp-fill"></i></span></a>
-                    <a href="https://www.linkedin.com/in/srijangajurel/" target="_blank"
-                        rel="noopener noreferrer"><span><i class="ri-linkedin-box-fill"></i></span></a>
-                    <a href="https://www.instagram.com/sreejangajurel/" target="_blank"
-                        rel="noopener noreferrer"><span><i class="ri-instagram-fill"></i></span></a>
-                    <a href="https://www.threads.net/@sreejangajurel" target="_blank" rel="noopener noreferrer"><span><i
-                                class="ri-threads-line"></i></span></a>
-                    <a href="https://www.youtube.com/@Ieducateothers" target="_blank" rel="noopener noreferrer"><span><i
-                                class="ri-youtube-fill"></i></span></a>
-                </div>
-                <div class="content">
-                    <h1>Explore <br><span>New Destinations</span></h1>
-                    <p>Visit the most beautiful places around the globe.Your next adventure is calling. Discover the
-                        unknown. Embrace the unexpected.</p>
-                    <a href="https://travel.usnews.com/rankings/worlds-best-vacations/" target="_blank"
-                        rel="noopener noreferrer"><button class="btn">Explore Now</button></a>
-                </div>
-
-
-
-                <div class="rounded-image">
-                    <img src="https://cdn.pixabay.com/photo/2017/09/01/21/53/sunglasses-2705642_640.jpg" alt="">
-                </div>
+            <div class="btn-group">
+                <a href="tilldateresume.pdf" class="btn">Resume</a>
+                <a href="#contact" class="btn">Contact</a>
             </div>
         </div>
-    </div>
-    </div>
 
-
-    <section data-aos="fade-down" id="destination" class="destiny">
-        <h1 class="line" style="font-size: 40px;">Explore Top Destinations</h1>
-
-
-
-        <div class="destiny-wrap">
-            <img src="back.png" height="50px" width="50px" alt="Back" id="destinyBackBtn">
-
-            <div class="destiny-gallery">
-                <div>
-                    <span class="bg-a">
-                        <button
-                            onclick="showAlert('The Great pyramid of Giza', 'The Great Pyramid of Giza is the largest Egyptian pyramid. It served as the tomb of pharaoh Khufu, who ruled during the Fourth Dynasty of the Old Kingdom. Built c. 2600 BC, over a period of about 26 years, the pyramid is the oldest of the Seven Wonders of the Ancient World')"
-                            class="btno">Read More</button>
-
-                    </span>
-
-                    <span class="bg-b">
-                        <button
-                            onclick="showAlert('The Great Wall of China', 'The Great Wall of China, built between the 3rd century BC and the 17th century AD, is an iconic structure stretching over 13,000 miles (20,000 kilometers) across northern China. It served as a defense barrier, constructed using materials like stone, brick, and packed earth. This engineering marvel, built by countless laborers over centuries, stands as a symbol of China rich history and architectural ingenuity')"
-                            class="btno">Read More</button>
-                    </span>
-                    <span class="bg-c">
-                        <button
-                            onclick="showAlert('The Taj Mahal', 'The Taj Mahal is a beautiful white marble monument in Agra, India. It was built by Emperor Shah Jahan in the 17th century in memory of his wife, Mumtaz Mahal, who passed away. The Taj Mahal is famous for its stunning architecture, with a large dome, detailed carvings, and beautiful gardens. It is one of the most famous landmarks in the world and a symbol of love.')"
-                            class="btno">Read More</button>
-                </div>
-
-                <div>
-                    <span class="bg-d">
-                        <button
-                            onclick="showAlert('Lumbini', 'Lumbini, located in Nepal, is the birthplace of Siddhartha Gautama, who became the Buddha. It is an important pilgrimage site for Buddhists worldwide. The site features ancient temples, including the Maya Devi Temple, and the sacred Bodhi Tree. Many countries, such as India, Japan, Thailand, and South Korea, have contributed to the development and restoration of Lumbini by building monasteries and supporting preservation efforts, making it a center of peace and spirituality')"
-                            class="btno">Read More</button>
-
-                    </span>
-                    <span class="bg-e">
-                        <button
-                            onclick="showAlert('Chichén Itzá is a famous ancient Mayan city located in Mexico Yucatán Peninsula. It was a major center of the Mayan civilization, known for its impressive architecture, including the El Castillo pyramid, also called the Temple of Kukulcán. The city features temples, ball courts, and observatories, showcasing the Mayans advanced knowledge of astronomy and engineering. Chichén Itzá is a UNESCO World Heritage site and one of the New Seven Wonders of the World')"
-                            class="btno">Read More</button>
-                    </span>
-                    <span class="bg-f">
-                        <button
-                            onclick="showAlert('Maccha Pichu', 'Machu Picchu is an ancient Incan city located high in the Andes Mountains of Peru. Built in the 15th century, it is famous for its stunning stone architecture, terraced fields, and breathtaking views. The site includes temples, palaces, and plazas, showcasing the Incas advanced engineering and craftsmanship. Often called the Lost City of the Incas, Machu Picchu is a UNESCO World Heritage site and one of the most popular tourist destinations in the world.')"
-                            class="btno">Read More</button>
-                </div>
-            </div>
-
-            <img src="next.png" height="50px" width="50px" alt="Next" id="destinyNextBtn">
-            <div id="customAlert" class="custom-alert">
-                <div class="custom-alert-content">
-                    <h2 id="alertTitle">Title</h2>
-                    <p id="alertDescription">Description</p>
-                    <button onclick="closeAlert()">OK</button>
-                </div>
-            </div>
+        <div class="home-img">
+            <img src="required.png" alt="Profile Picture">
+        </div>
     </section>
 
+<h2 class="heading">About Me</h2>
+<section data-aos="fade-down" class="about" id="about">
+    <div class="img-about">
+        <img src="required.png" alt="" srcset="">
+        <div class="info-about1">
+            <span>100+</span>
+            <p>Projects completed</p>
+        </div>
+        <div class="info-about2">
+            <span>50+</span>
+            <p>Training programs</p>
+        </div>
 
-    <section data-aos="fade-down" id="about" class="abt">
-        <h1 style="font-family: Poppins; font-weight: 600;">Discover Our Travel Services</h1>
-        <div class="abt-wrap">
-            <div class="itam item-a">
-                <div class="card">
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-body-secondary">
-                            <button class="btn"><i class="ri-bar-chart-2-fill"></i></button>
-                        </h6>
-                        <h5 class="card-title">Guided Tour</h5>
-                        <p class="card-text">Join our expertly guided tours to explore breathtaking landscapes with
-                            local insights and personalized experiences.</p>
-                        <div class="card-links">
-                            <a onclick="alert('Sorry for your inconvience. Our experts will be available soon. Please connect with us through social media for latest updates')"
-                                class="card-link">Talk to Expert</a>
-                            <a onclick="alert('Experts are currently unavailable. Please connect with us through social media for latest updates')"
-                                class="card-link">Learn More</a>
-                        </div>
-                    </div>
+        <div class="info-about3">
+            <span>60+</span>
+            <p>Positive feedback</p>
+        </div>
+    </div>
+
+    <div class="about-content">
+        <span>Let me introduce myself</span>
+        <h2>About Me</h2>
+        <h3>A story of good</h3>
+        <p>Hi! I’m Srijan Gajurel, a passionate <strong style="color:var(--main-color)">web developer</strong> and <strong style="color:var(--main-color)">technology</strong> enthusiast. I love creating <strong style="color:var(--main-color)">websites </strong>and apps that help people. I began my journey by learning how to build websites and have worked on several <strong style="color:var(--main-color)">exciting projects</strong>. One such project was <strong style="color:var(--main-color)">Life Care Services</strong>, where I aimed to provide access to <strong style="color:var(--main-color)">essential resources</strong> like hospital contact information, <strong style="color:var(--main-color)">emergency numbers </strong>for free, and doctor appointments upon login. Another project was Manoranjan, a platform designed to offer <strong style="color:var(--main-color)">entertainment </strong> and <strong style="color:var(--main-color)">fun.</strong>
+            I enjoy <strong style="color:var(--main-color)">solving problems </strong>and <strong style="color:var(--main-color)">improving my skills </strong> every day. When I’m not coding, you might find me exploring <strong style="color:var(--main-color)">new technologies </strong> or enjoying time with my <strong style="color:var(--main-color)">family and friends</strong>. I’m excited to share my work and create even more <strong style="color:var(--main-color)">amazing projects</strong> in the future!</p>
+
+            <div class="btn-box">
+                <a onclick="alert('My personal blog is coming soon');" class="btn">Read More</a>
+            </div>
+    </div>
+</section>
+
+   
+    
+    <section data-aos="fade-down" class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021</div>
+                <div class="timeline-content">
+                    <h3>High School</h3>
+                    <p>I successfully completed the National Examinations Board (NEB) Examination, studying from <a style=" color:#fff" href="https://ria.edu.np/" target="_blank" rel="noopener noreferrer"><strong style="font-style: italic;">Reliance International Academy</strong></a> and earned a GPA of 3.73.</p>
                 </div>
             </div>
-            <div class="itam item-b">
-                <div class="card">
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-body-secondary">
-                            <button class="btn"><i class="ri-tools-line"></i></button>
-                        </h6>
-                        <h5 class="card-title">Adventure Travel</h5>
-                        <p class="card-text">Trekhub provides thrilling adventures for adrenaline seekers, ensuring
-                            safety and excitement in every activity.</p>
-                        <div class="card-links">
-                            <a onclick="alert('Sorry for your inconvience. Our experts will be available soon. Please connect with us through social media for latest updates')"
-                                class="card-link">Talk to Expert</a>
-                            <a onclick="alert('Experts are currently unavailable. Please connect with us through social media for latest updates')"
-                                class="card-link">Learn More</a>
-                        </div>
-                    </div>
+    
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022</div>
+                <div class="timeline-content">
+                    <h3>University</h3>
+                    <p>I am  studying at <a style="color:#fff;font-style: italic;" href="https://nec.edu.np/" target="_blank" rel="noopener noreferrer">Nepal Engineering College </a> affiliated to <strong>Pokhara University</strong> with an expected graduation year of 2025.</p>
+
                 </div>
             </div>
-            <div class="itam item-c">
-                <div class="card">
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-body-secondary">
-                            <button class="btn"><i class="ri-flag-line"></i></button>
-                        </h6>
-                        <h5 class="card-title">Cultural Tours</h5>
-                        <p class="card-text">Dive deep into diverse cultures with our tours, offering authentic
-                            encounters and enriching local experiences.</p>
-                        <div class="card-links">
-                            <a onclick="alert('Sorry for your inconvience. Our experts will be available soon. Please connect with us through social media for latest updates')"
-                                class="card-link">Talk to Expert</a>
-                            <a onclick="alert('Experts are currently unavailable. Please connect with us through social media for latest updates')"
-                                class="card-link">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="itam item-d">
-                <div class="card">
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-body-secondary">
-                            <button class="btn"><i class="ri-bookmark-3-fill"></i></button>
-                        </h6>
-                        <h5 class="card-title">Group Trips</h5>
-                        <p class="card-text">Experience the thrill of group travel with shared adventures and tailored
-                            itineraries for every collective taste.</p>
-                        <div class="card-links">
-                            <a onclick="alert('Sorry for your inconvience. Our experts will be available soon. Please connect with us through social media for latest updates')"
-                                class="card-link">Talk to Expert</a>
-                            <a onclick="alert('Experts are currently unavailable. Please connect with us through social media for latest updates')"
-                                class="card-link">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="itam item-e">
-                <div class="card">
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-body-secondary">
-                            <button class="btn"><i class="ri-customer-service-line"></i></button>
-                        </h6>
-                        <h5 class="card-title">Family Vacations</h5>
-                        <p class="card-text">Create lasting memories with family-friendly packages designed for fun and
-                            relaxation of all ages on your trip.</p>
-                        <div class="card-links">
-                            <a onclick="alert('Sorry for your inconvience. Our experts will be available soon. Please connect with us through social media for latest updates')"
-                                class="card-link">Talk to Expert</a>
-                            <a onclick="alert('Experts are currently unavailable. Please connect with us through social media for latest updates')"
-                                class="card-link">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="itam item-f">
-                <div class="card">
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-body-secondary">
-                            <button class="btn"><i class="ri-contrast-2-fill"></i></button>
-                        </h6>
-                        <h5 class="card-title">Solo Travels</h5>
-                        <p class="card-text">Venture solo with confidence, equipped with our resources and support for
-                            an unforgettable, self-directed travel experience.</p>
-                        <div class="card-links">
-                            <a onclick="alert('Sorry for your inconvience. Our experts will be available soon. Please connect with us through social media for latest updates')"
-                                class="card-link">Talk to Expert</a>
-                            <a onclick="alert('Experts are currently unavailable. Please connect with us through social media for latest updates')"
-                                class="card-link">Learn More</a>
-                        </div>
-                    </div>
+    
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Internship</h3>
+                    <p>I successfully completed one month of virtual Internship program in web Development with wonderful remarks at <a style="color:#fff; font-style: italic;" href="https://www.itintern.in/" target="_blank" rel="noopener noreferrer">ItIntern</a>(1 Sep 2024-30 Sep 2024)</p>
                 </div>
             </div>
         </div>
     </section>
+    
 
-    <section data-aos="fade-down" id="contact" class="conta">
-        <div class="contact-section" style="font-family: Poppins, sans-serif; font-weight: 600; font-style: normal;">
-            <h1 class="line" style="margin:0 auto; width:100%; text-align: center; position:absolute; top:50px;">Contact
-                Form</h1>
+   
 
-            <div class="message-form">
-                <form>
-
-                    <div class="input-field">
-                        <input type="text" name="full_name" required="required">
-                        <span>Full Name</span>
-                    </div>
-                    <div class="input-field">
-                        <input type="email" name="email" required="required">
-                        <span>Email</span>
-                    </div>
-                    <div class="input-field">
-                        <textarea required="required"></textarea>
-                        <span>Type your message...</span>
-                    </div>
-                    <div class="input-field">
-                        <input
-                            onclick="alert('Please contact us through social media. We will complete the project soon. Have a great day!')"
-                            type="submit" name="submit" value="Send">
-                    </div>
-                </form>
-            </div>
+    <section data-aos="fade-down" class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+<div style="text-align: center;" class="main-text">
+    <span style="font-size: 2.5rem;">Technical and Professional</span>
+    <h2 style="font-size: 2rem;">My Skills</h2>
+</div>
+<div class="skill-main">
+    <div class="skill-left"><h3>Technical Skills</h3>
+    <div class="skill-bar">
+        <div class="info">
+            <p>HTML</p>
+            <p>72%</p>
         </div>
-    </section>
-
-
-    <h1 class="line" style="margin:50px 0; width:100%; text-align: center;">Blogs</h1>
-    <section data-aos="fade-down" id="blogs" class="blogs">
-
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
-                <div class="card">
-                    <img style="height: 300px;" src="greatwallofchina.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">The Great Wall of China <a class="newone"
-                                style="text-decoration: none; cursor: pointer;"
-                                href="https://en.wikipedia.org/wiki/Great_Wall_of_China" target="_blank"
-                                rel="noopener noreferrer"><i class="ri-brain-2-line"></i></a></h5>
-                        <p class="card-text">The Great Wall of China, built between the 3rd century BC and the 17th
-                            century AD, is an iconic structure stretching over 13,000 miles (20,000 kilometers) across
-                            northern China. It served as a defense barrier, constructed using materials like stone,
-                            brick, and packed earth. This engineering marvel, built by countless laborers over
-                            centuries, stands as a symbol of China rich history and architectural ingenuity</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img style="height: 300px;" src="tajmahal.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">The Taj Mahal<a class="newone"
-                                style="text-decoration: none; cursor: pointer;"
-                                href="https://en.wikipedia.org/wiki/Taj_Mahal" target="_blank"
-                                rel="noopener noreferrer"><i class="ri-brain-2-line"></i></a></h5>
-                        <p class="card-text">The Taj Mahal is a beautiful white marble monument in Agra, India. It was
-                            built by Emperor Shah Jahan in the 17th century in memory of his wife, Mumtaz Mahal, who
-                            passed away. The Taj Mahal is famous for its stunning architecture, with a large dome,
-                            detailed carvings, and beautiful gardens. It is one of the most famous landmarks in the
-                            world and a symbol of love</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img style="height: 250px;" src="Mayadevitemplelumbini.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Lumbini <a class="newone" style="text-decoration: none; cursor: pointer;"
-                                href="https://en.wikipedia.org/wiki/Lumbini" target="_blank"
-                                rel="noopener noreferrer"><i class="ri-brain-2-line"></i></a></h5>
-                        <p class="card-text">Lumbini, located in Nepal, is the birthplace of Siddhartha Gautama, who
-                            became the Buddha. It is an important pilgrimage site for Buddhists worldwide. The site
-                            features ancient temples, including the Maya Devi Temple, and the sacred Bodhi Tree. Many
-                            countries, such as India, Japan, Thailand, and South Korea, have contributed to the
-                            development and restoration of Lumbini by building monasteries and supporting preservation
-                            efforts, making it a center of peace and spirituality</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img style="height: 300px;" src="pyramidofgiza.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">The Great Pyramid of Gaza <a class="newone"
-                                style="text-decoration: none; cursor: pointer;"
-                                href="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza" target="_blank"
-                                rel="noopener noreferrer"><i class="ri-brain-2-line"></i></a></h5>
-                        <p class="card-text">The Great Pyramid of Giza is the largest Egyptian pyramid. It served as the
-                            tomb of pharaoh Khufu, who ruled during the Fourth Dynasty of the Old Kingdom. Built c. 2600
-                            BC, over a period of about 26 years, the pyramid is the oldest of the Seven Wonders of the
-                            Ancient World</p>
-                    </div>
-                </div>
-            </div>
+        <div class="bar">
+            <span class="html">html</span>
         </div>
-    </section>
-
-
-
-    <h1 class="line" style="margin:50px auto; width:100%; text-align: center;">Newsletter
-
-    </h1>
-
-    <div class="newsletter">
-        <div class="readytowatch">
-            <p>Subscribe Now!</p>
-            <p style="font-family: Poppins; font-size: 15px;">Subscribe to our newsletter for the latest blog posts,
-                tips, & travel guides. Let's stay updated!</p>
+    </div>
+    <div class="skill-bar">
+        <div class="info">
+            <p>CSS</p>
+            <p>75%</p>
         </div>
-        <div  class="input-email">
-            <input style="color:black" type="email" name="email" placeholder="Email address">
-            <a onclick="alert('Sorry for your inconvience. We are working on it')"><button>Get started</button></a>
+        <div class="bar">
+            <span class="css">CSS</span>
+        </div>
+    </div>
+
+    <div class="skill-bar">
+        <div class="info">
+            <p>JS</p>
+            <p>80%</p>
+        </div>
+        <div class="bar">
+            <span class="js">JS</span>
+        </div>
+    </div>
+
+    <div class="skill-bar">
+        <div class="info">
+            <p>React Native</p>
+            <p>60%</p>
+        </div>
+        <div class="bar">
+            <span class="react">React</span>
         </div>
     </div>
 
 
-    <div style="margin:100px 0; text-decoration: underline;" class="questionwala">
-        <a href="">Questions? Contact us</a>
+    <div class="skill-bar">
+        <div class="info">
+            <p>PHP</p>
+            <p>55%</p>
+        </div>
+        <div class="bar">
+            <span class="php">PHP</span>
+        </div>
+    </div>
+</div>
+
+    
+    <div class="skill-right">
+        <h3>Professional Skills</h3>
+        <div class="professional">
+            <div class="box">
+                <div class="circle" data-dots="80" data-percent="90"></div>
+                <div class="text">
+                    <big>90%</big>
+                    <small>Team Work</small>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="circle" data-dots="80" data-percent="70"></div>
+                <div class="text">
+                    <big>70%</big>
+                    <small>Leadership Skill</small>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="circle" data-dots="80" data-percent="60"></div>
+                <div class="text">
+                    <big>60%</big>
+                    <small>Multi-tasking</small>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="circle" data-dots="80" data-percent="80"></div>
+                <div class="text">
+                    <big>80%</big>
+                    <small>Creativity</small>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
 
-    <div class="gridfooter">
-        <div class="footerwala item-1">
-            <a href="#">Home</a>
-            <a href="#destination">Destination</a>
-        </div>
-        <div class="footerwala item-2">
-            <a href="#about">About</a>
-            <a href="#blogs">Blogs</a>
-        </div>
-        <div class="footerwala item-3">
-            <a href="#contact">Contact Us</a>
-        </div>
-        <div class="footerwala item-4">
-            <a style="cursor:pointer"
-                onclick="alert('At Trekhub, your privacy is our priority. We are committed to safeguarding your personal information. Any data collected, including your name, email, and usage patterns, is used to improve your experience on our platform. We do not share or sell your information to third parties without your consent, except as required by law. You have control over your data and can request its deletion at any time. For more details on how we protect your privacy, please email us or reach out through social media.')">Privacy
-                Policy</a>
-            <a style="cursor:pointer"
-                onclick="alert('By using Trekhub, you agree to comply with our terms and conditions. The content and services provided on our platform are for personal use only and cannot be reproduced or distributed without permission. We reserve the right to modify or terminate services at any time. Users are responsible for ensuring that their activities on Trekhub are lawful and do not infringe on the rights of others. Any misuse of the platform may result in account suspension or legal action.')">Terms
-                of Use</a>
-        </div>
-    </div>
-    <div class="cntactlinks">
-        <h5>&copy; Srijan Gajurel | All Rights Reserved</h5>
-        <a href="https://twitter.com/Yuvibestofbest" target="_blank" rel="noopener noreferrer"> <span><i
-                    class="ri-twitter-x-line"></i></span></a>
-        <a href="https://www.facebook.com/Dr.Drunkstein/" target="_blank" rel="noopener noreferrer"> <span><i
-                    class="ri-facebook-circle-fill"></i></span></a>
-        <a href="tel:+9779840031714" target="_blank" rel="noopener noreferrer"><span><i
-                    class="ri-whatsapp-fill"></i></span></a>
-        <a href="https://www.linkedin.com/in/srijangajurel/" target="_blank" rel="noopener noreferrer"><span><i
-                    class="ri-linkedin-box-fill"></i></span></a>
-        <a href="https://www.instagram.com/sreejangajurel/" target="_blank" rel="noopener noreferrer"><span><i
-                    class="ri-instagram-fill"></i></span></a>
-        <a href="https://www.threads.net/@sreejangajurel" target="_blank" rel="noopener noreferrer"><span><i
-                    class="ri-threads-line"></i></span></a>
-        <a href="https://www.youtube.com/@Ieducateothers" target="_blank" rel="noopener noreferrer"><span><i
-                    class="ri-youtube-fill"></i></span></a>
+<section data-aos="fade-down" class="projects" id="projects">
+    <h2 class="heading">Projects</h2>
+    <div class="main-text">
+        <h2 style="font-size: 2.5rem; text-align: center;">My latest projects</h2>
     </div>
 
+    <div class="mycontainer">
+        <div class="filter-buttons">
+            <button class="btns" onclick="filterSelection('all')">All</button>
+            <button class="btns" onclick="filterSelection('landing')">Landing</button>
+            <button class="btns" onclick="filterSelection('tri')">Tribute</button>
+            <button class="btns" onclick="filterSelection('dyn')">Dynamic</button>
+        </div>
 
-    </body>
-    <Script>
+        <div class="portfolio-gallery">
+            <div class="port-box landing">
+                <div class="port-image">
+                    <img src="p1.jpg" alt="">
+                </div>
+                <div class="port-content">
+                    <h3>Trekhub</h3>
+                    <p>Landing page design project.</p>
+                    <a  onclick="alert('Launching soon');" rel="noopener noreferrer"><i class="ri-links-line" ></i></a>
+                </div>
+            </div>
 
-        let scrollContainer = document.querySelector(".destiny-gallery");
-        let backBtn = document.getElementById('destinyBackBtn');
-        let nextBtn = document.getElementById('destinyNextBtn');
+            <div class="port-box landing">
+                <div class="port-image">
+                    <img src="p2.jpg" alt="">
+                </div>
+                <div class="port-content">
+                    <h3>Glass shop</h3>
+                    <p>Another landing page design.</p>
+                    <a href="https://cjffcnx.github.io/glass/" target="_blank" rel="noopener noreferrer"><i class="ri-links-line"></i></a>
+                </div>
+            </div>
+
+            <div class="port-box tri">
+                <div class="port-image">
+                    <img src="p3.jpg" alt="">
+                </div>
+                <div class="port-content">
+                    <h3>Tribute Project</h3>
+                    <p>Tribute to sadhguru.</p>
+                    <a href="https://cjffcnx.github.io/Sadhguru-tribute/" target="_blank" rel="noopener noreferrer"><i class="ri-links-line"></i></a>
+                </div>
+            </div>
+
+            <div class="port-box tri">
+                <div class="port-image">
+                    <img src="p4.jpg" alt="">
+                </div>
+                <div class="port-content">
+                    <h3>Another tribute page</h3>
+                    <p>Tribute to Steve Jobs</p>
+                    <a href="https://cjffcnx.github.io/tribute_page/" target="_blank" rel="noopener noreferrer"><i class="ri-links-line"></i></a>
+                </div>
+            </div>
+
+            <div class="port-box dyn">
+                <div class="port-image">
+                    <img src="p5.jpg" alt="">
+                </div>
+                <div class="port-content">
+                    <h3>Dynamic Project</h3>
+                    <p>Life Care Services will be deployed soon</p>
+                    <a onclick="alert('Launching soon');"  rel="noopener noreferrer"><i class="ri-links-line"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 
 
-        scrollContainer.addEventListener("wheel", (evt) => {
-            evt.preventDefault();
-            scrollContainer.scrollLeft += evt.deltaY;
-            scrollContainer.style.scrollBehavior = "auto";
-        });
 
 
-        nextBtn.addEventListener('click', () => {
-            scrollContainer.scrollLeft += 900;
-            scrollContainer.style.scrollBehavior = "smooth";
-        });
+<section data-aos="fade-down" class="contact" id="contact">
+<h2 class="heading">Contact <span style="color: var(--main-color);">Me</span></h2>
+
+<form action="">
+<div class="input-group">
+<div class="inputing-box">
+    <input type="text" placeholder=" Full Name" class="inputing" required>
+    <input type="email" placeholder="Email" class="inputing" required>
+</div>
+
+<div class="inputing-box">
+    <input type="number" placeholder=" Phone Number" class="inputing">
+    <input type="text" placeholder="Subject" class="inputing">
+</div>
+</div>
+
+<div class="input-group-2">
+    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message">
+       
+    </textarea>
+    <input onclick="alert('Thank you and sorry for your inconvience we will be integrating backend shortly till then please contact us through social media. Thank you for understanding')" type="text" placeholder="Send Message" class="btn">
+</div>
+</form>
+</section>
 
 
-        backBtn.addEventListener('click', () => {
-            scrollContainer.scrollLeft -= 900;
-            scrollContainer.style.scrollBehavior = "smooth";
-        });
+<footer class="footer">
+    <div class="socials">
+        <a href="https://www.linkedin.com/in/srijangajurel" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61555139187709" target="_blank"><i class="ri-facebook-circle-fill"></i></a>
+        <a href="https://twitter.com/Yuvibestofbest" target="_blank"><i class="ri-twitter-x-fill" ></i></a>
+        <a href="tel:+9779840031714"><i class="ri-whatsapp-fill"></i></a>
+        <a href="https://www.youtube.com/@Ieducateothers" target="_blank"><i class="ri-youtube-fill" ></i></a>
+    </div>
 
-    </Script>
+    <ul class="list">
+     <li><a href="#">Home</a></li>   
+     <li><a href="#skills">Skills</a></li>   
+     <li><a href="#about">About</a></li>   
+     <li><a href="#contact">Contact</a></li>   
+     <li><a href="#projects">Projects</a></li>   
+     <li><a href="#education">Education</a></li>  
+    
+    </ul>
+<p class="copyright">&copy;Srijan Gajurel |All Rights Reserved. <span class="top-ican"><i onclick="scrollToTopCustom()" class="ri-arrow-up-circle-fill "></i></span></p>
+</footer>
+
+<script>
+    function scrollToTopCustom() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+</script>
+
+<style>
+@media(max-width:1285px)
+{
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:991px)
+{
+    header{
+        padding:2rem 3%
+    }
+
+    section{
+        padding:10rem 3% 2rem;
+    }
+}
+</style>
+
+
+
+
+
+
+<script>
+function filterSelection(category) {
+    var items = document.getElementsByClassName('port-box');
+    for (var i = 0; i < items.length; i++) {
+        if (category === 'all') {
+            items[i].style.display = 'block'; 
+        } else {
+            if (items[i].classList.contains(category)) {
+                items[i].style.display = 'block'; 
+            } else {
+                items[i].style.display = 'none'; 
+            }
+        }
+    }
+}
+</script>
+
+
+
+
+
+
+
     <script>
-        function showAlert(title, description) {
+      const circles = document.querySelectorAll('.circle');
+circles.forEach(elem => {
+    const dots = elem.getAttribute('data-dots');
+    const marked = elem.getAttribute('data-percent');
+    const percent = Math.floor(dots * marked / 100);
+    const points = [];
+    const rotate = 360 / dots;
 
-            document.getElementById('alertTitle').textContent = title;
-            document.getElementById('alertDescription').textContent = description;
+    for (let i = 0; i < dots; i++) {
+        points.push(`<div class='points' style='--i:${i};--rot:${rotate}deg'></div>`);
+    }
+    elem.innerHTML = points.join('');
 
-
-            document.getElementById('customAlert').style.display = 'flex';
-        }
-
-        function closeAlert() {
-
-            document.getElementById('customAlert').style.display = 'none';
-        }
+    
+    const pointsMarked = elem.querySelectorAll('.points');
+    for (let i = 0; i < percent; i++) {
+        pointsMarked[i].classList.add('marked');
+    }
+});
 
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    
+<script>
+    const menuIcon = document.querySelector("#menu-icon");
+    const navbar = document.querySelector(".navbar");
 
+    menuIcon.onclick = () => {
+        navbar.classList.toggle("active");
+    }
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</body>
 </html>
