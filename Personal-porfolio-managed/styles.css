@@ -18,6 +18,8 @@ body {
     color: var(--text-color);
     margin: 0;
     font-family: Arial, sans-serif;
+      width: 100vw;
+    min-height: 100vh;
 }
 
 
